@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url(juju.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #5e548e;
+  }
+  
+  #todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #202225;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #a8dadc;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #2f3136;
+    border-radius: 10px;
+  }
+  
+  .task .emoji {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .task .task-info {
+    flex: 1;
+  }
+  
+  .task .priority {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .task .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete-btn,
+  .edit-btn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover,
+  .edit-btn:hover {
+    text-decoration: underline;
+  }
+  
